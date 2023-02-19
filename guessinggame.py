@@ -1,7 +1,7 @@
 import math #imports the math library
-import random
-a = []
-a.append(random.randint(1, 99))
+import random # imports the random library
+a = [] #list of variables
+a.append(random.randint(1, 99)) # this adds the var
 a.append(random.randint(1, 99))
 a.append(random.randint(1, 99))
 a.append(random.randint(1, 99))
