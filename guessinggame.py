@@ -17,10 +17,10 @@ for i in range(10)::# loop for generating a sequence of numbers
     g = int(input("Enter an integer from 1 to 99: ")) # asks for int in g
     while a[i] != g: #condition when int is different from g
         if g < a[i]: #condition if g is smaller from a
-            print("guess is low")
+            print("guess is low")#prints message
             g = int(input("Enter an integer from 1 to 99: "))# asks for int in g
         elif g > a[i]: #condition if the previous statement isnt true but checks for another
-            print("guess is high")
+            print("guess is high")#prints message
             g = int(input("Enter an integer from 1 to 99: ")) # asks for int in g
         else: #checks if statement if is false
             break #break is with upper condition 
