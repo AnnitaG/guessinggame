@@ -11,7 +11,7 @@ a.append(random.randint(1, 99))
 a.append(random.randint(1, 99))
 a.append(random.randint(1, 99))
 a.append(random.randint(1, 99))
-for i in range(10):
+for i in range(10): # 
     g = int(input("Enter an integer from 1 to 99: "))
     while a[i] != g:
         if g < a[i]:
